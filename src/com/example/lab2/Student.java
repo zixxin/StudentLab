@@ -1,12 +1,11 @@
 package com.example.lab2;
 
 public class Student implements Comparable<Student> {
-	private int no;
-	private String name;
-	private int age;
+	int no;
+	String name;
+	int age;
 	
 	public Student(int no, String name, int age) {
-		super();
 		this.no = no;
 		this.name = name;
 		this.age = age;
