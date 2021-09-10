@@ -1,11 +1,9 @@
 package com.example.lab2;
 
 public class Student implements Comparable<Student> {
-	
 	private int no;
 	private String name;
 	private int age;
-	
 	
 	public Student(int no, String name, int age) {
 		super();
@@ -35,11 +33,10 @@ public class Student implements Comparable<Student> {
 
 	@Override
 	public int compareTo(Student o) {
-		// TODO Auto-generated method stub
 		return name.compareTo(o.name);
 	}
 	
 	public String toString() {
-		return "Student [ no=" + no + ", name=" + name + ", age =" + age + "]";
+		return "Student [ no="+no+", name="+name+", age ="+age+"]";
 	}
 }
